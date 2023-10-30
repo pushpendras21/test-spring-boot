@@ -3,14 +3,14 @@ name: CI Build
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
-    name: Build Main Branch
+    name: Build Master Branch
     runs-on: ubuntu-latest
 
     steps:
